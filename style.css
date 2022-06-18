@@ -1,0 +1,126 @@
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: lexend deca;
+        width: 100%;
+        background-color: hsl(0, 0%, 95%);
+        font-size: 15px;
+        font-weight: 400;
+    }
+    
+    main {
+        width: 50%;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        align-items: center;
+    }
+    
+    .col1,
+    .col2,
+    .col3 {
+        float: left;
+        padding: 20px;
+        height: 450px;
+        line-height: 2.0;
+        width: 50%;
+    }
+    
+    .col1 {
+        background-color: hsl(31, 77%, 52%);
+        width: 50%;
+        padding: 30px;
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+        color: white;
+    }
+    
+    .col2 {
+        background-color: hsl(184, 100%, 22%);
+        width: 50%;
+        padding: 30px;
+        color: white;
+    }
+    
+    .col3 {
+        background-color: hsl(179, 100%, 13%);
+        width: 50%;
+        padding: 30px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        color: white;
+    }
+    
+    img {
+        width: 50px;
+        background-color: transparent;
+    }
+    
+    .logo1 {
+        background-color: transparent;
+    }
+    
+    button {
+        padding: 10px;
+        border-radius: 25px;
+        border: 1px solid white;
+        background-color: white;
+        width: 100px;
+        margin-top: 70px;
+        font-weight: bold;
+    }
+    
+    .btn1 {
+        color: rgb(255, 208, 0);
+    }
+    
+    .btn2 {
+        color: rgb(53, 158, 97);
+        ;
+    }
+    
+    .btn3 {
+        color: rgb(3, 43, 3);
+    }
+    
+    button :hover {
+        background-color: transparent;
+        color: white;
+        cursor: pointer;
+    }
+    
+    footer {
+        background-color: #777;
+        padding: 10px;
+        text-align: center;
+        color: white;
+    }
+    /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+    
+    @media (max-width: 600px) {
+        nav,
+        article {
+            width: 100%;
+            height: auto;
+        }
+    }
+    
+    nav {
+        background-color: black;
+        color: white;
+        display: flex;
+    }
+    
+    .nav {
+        text-decoration: none;
+        color: green;
+        margin: 5px;
+        background-color: white;
+        padding: 15px;
+        text-align: center;
+    }
